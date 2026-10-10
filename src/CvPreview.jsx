@@ -190,7 +190,6 @@ export default function CvPreview({ cvData, onEditSection }) {
                         <path d="M13 4h15l9 9v29H13V4Z" stroke="currentColor" strokeWidth="2.5" strokeLinejoin="round" />
                         <path d="M28 4v10h9M19 23h12M19 29h12M19 35h8" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
                         <path d="M4 17h7v14H4z" fill="#FBD509" />
-                        <text x="5" y="27" fill="#141619" fontSize="6" fontWeight="700">PDF</text>
                     </svg>
                     <p className="cv-mobile-document__title">
                         {cvData.personal.firstName || cvData.personal.surname
